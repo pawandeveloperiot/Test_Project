@@ -10,6 +10,7 @@ void setup() {
     Serial.begin(9600);
     Serial.println("Initializing DHT sensor...");
     Serial.println("Initializing...");
+    Serial.println("DHT..");
     dhtSetup();
     Serial.println("Initializing Ethernet...");
     ethernetSetup(mac, ip);
