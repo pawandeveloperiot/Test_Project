@@ -9,6 +9,7 @@ const char server[] = "192.168.0.111"; // Replace with your server's IP address
 void setup() {
     Serial.begin(9600);
     Serial.println("Initializing DHT sensor...");
+    Serial.println("Initializing...");
     dhtSetup();
     Serial.println("Initializing Ethernet...");
     ethernetSetup(mac, ip);
